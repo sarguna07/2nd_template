@@ -33,4 +33,83 @@
     width:100%;
     max-width:720px;
     background-color:honeydew;
+    /* text-indent: 10px; */
+    display:flex;
 }
+.advertisement{
+    width:100%;
+    height:300px;
+    background-image:url("./marvel.jpg");
+    display:flex;
+    justify-content:center;
+}
+.image{
+    width:100%;
+    max-width:720px;
+}
+.menubar{
+    border-bottom:1px solid white;
+    display: flex;
+    padding-top:7px;
+}
+.menubar ul li{
+    display: inline-block;
+    list-style: none;
+    text-indent:10px;
+    padding-top:5px;
+}
+.menubar .search-container {
+    float: right;
+    padding-left:80px;
+}
+  
+  .menubar input[type=text] {
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .menubar .search-container button {
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+    background:rgb(134, 134, 228);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .content{
+      width: 100%;
+      display:flex;
+      justify-content:right;
+
+
+  }
+  .about{
+      width:100%;
+      max-width:360px;
+      padding-top:50px;
+      padding-left:380px;
+      /* text-align: right; */
+      /* justify-content: center; */
+      
+      
+}
+  .main{
+      width:100%;
+      height:200px;
+      background-color:black;
+      display:flex;
+      justify-content: center;
+  }
+  
+  .row{
+      width:100%;
+      max-width:720px;
+      background-color:whitesmoke;
+      display:flex;
+  }
+  .column{
+      width:50%;
+      background-color:brown; 
+  }
