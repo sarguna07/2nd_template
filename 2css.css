@@ -2,61 +2,66 @@
     margin:0px;
     padding:0px;
 }
-.row1{
+.topnavbar{
     width: 100%;
-    height:45px;
-    background-color: grey;
-    display:flex;
-    justify-content: center;
+    height:40px;
+    background-color: rgb(155, 152, 152);
 }
-.row2{
-    width:100%;
-    max-width:720px;
-    background-color: white;
-    display:flex;
-    padding:5px;
+.top{
+    max-width:900px;
+     margin:auto;
+     display:flex;
 }
-.row2 ul li{
-    display: inline-block;
-    float:right;
-    list-style: none;
-    text-indent: 10px;
+ .top2{
+    width:45%;   
 }
-.btn-primary {
-    color:black;
-    background-color: #1b2025;
-    border-color: #007bff;
-    padding: 3px;
-}
-.header{
+
+ .header{
     width:100%;
     height:50px;
-    background-color:rgb(65, 63, 63);
-    display:flex;
-    justify-content: center;
+    background-color:rgb(211, 209, 209);
+    
 }
 .logo{
-    width:100%;
-    max-width:720px;
+    max-width:900px;
     background-color:honeydew;
-    /* text-indent: 10px; */
+    margin:auto;
     display:flex;
 }
+.logo1{
+    width:25%;
+    display: flex;
+} 
+.reachus{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    width:25%;
+    text-indent:20px;
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
 .advertisement{
-    width:100%;
+ 
     height:300px;
     background-image:url("./marvel.jpg");
-    display:flex;
-    justify-content:center;
+   width:100%;
+ 
 }
 .image{
-    width:100%;
-    max-width:720px;
+    margin:auto;
+    max-width:900px;
+    display:flex;
 }
 .menubar{
     border-bottom:1px solid white;
     display: flex;
-    padding-top:7px;
+    width:62.4%;
 }
 .menubar ul li{
     display: inline-block;
@@ -65,67 +70,53 @@
     padding-top:5px;
 }
 .menubar .search-container {
-    float: right;
-    padding-left:80px;
-}
-  
-  .menubar input[type=text] {
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-  }
-  
+    float: right;   
+    width:35%;
+}  
   .menubar .search-container button {
-    float: right;
-    margin-top: 8px;
-    margin-right: 16px;
-    background:rgb(134, 134, 228);
-    font-size: 17px;
-    border: none;
     cursor: pointer;
   }
-  .content{
-      width: 100%;
-      display:flex;
-      justify-content:right;
-
-
-  }
+ 
   .about{
-      width:100%;
-      padding-top:50px;
-      padding-left:380px;
-       
-      
+      max-width:900px;
+      margin:auto;
 }
+.content{
+    width:50%;
+    float:right;  
+}
+
   .main{
       width:100%;
       height:200px;
-      background-color:black;
-      display:flex;
-      justify-content: center;
+      background-color:rgb(99, 97, 97);
+  
   }
   
-  .row{
-      width:100%;
-      max-width:720px;
-      background-color:whitesmoke;
-      display:flex;
+  .body1{
+      max-width:900px;
+   
+      display: flex;
+      margin:auto;
   }
-  .column{
+  .column1{
       width:50%;
+      height:200px;
       background-color:brown; 
+  }
+  .column2{
+      width:50%;
+
   }
   .services{
       width:100%;
       height:45px;
       background-color:black;
-      display:flex;
-      justify-content:center;
+     
   }
   .our{
-      width:100%;
-      max-width:720px;
+     margin:auto;
+      max-width:900px;
       background-color: aliceblue;
       text-align:center;
   }
@@ -138,11 +129,10 @@
  }
  .text{
      width:100%;
-     max-width:720px;
+     max-width:900px;
      display:flex;
  }
   .card-container .card{
-    margin-right: 10px;
     padding:0px;
     box-shadow: 5px 3px 5px 5px;
   }
@@ -152,38 +142,42 @@
   }
   .box{
     width:100%;
-    height:310px;
+    height:75px;
     background: rgb(140, 141, 140);
   }
 .footer{
-    width:100%;
-    height:75px;
+    max-width:900px;
+    margin:auto;
     background-color:grey;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    padding-top:10px;
 }
-.end{
-    width:100%;
-    max-width:720px;
+.first{
+    width:25%;
+    display: flex;
+    background-color:grey;
+}
+.middle{
+    width:50%;
     background-color:white;
-    padding-top:20px;
     display:flex;
 }
-.end ul li{
-    float:right;
+.middle ul li{
     display: inline-block;
     text-indent:10px;
+    list-style: none;
+}
+.last{
+    width:25%;
+    display: flex;
+    justify-content: flex-end;
 }
 .conclusion{
-    background-color:black;
-    height:200px;
-    width:100%;
-    display:flex;
-    justify-content:center;
+    background-color:rgb(92, 89, 89);
 }
 .endgame{
-    width:100%;
-    max-width:720px;
+    margin:auto;
+    max-width:900px;
     background-color:white;
-
+    
 }
